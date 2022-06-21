@@ -1,0 +1,83 @@
+body {
+    background-color: rgba(23, 136, 57, 0.678);
+    
+}
+
+.intro {
+    margin: 0em 20%;
+    align-items: flex-start;
+}
+
+table,
+th,
+td,
+tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.modules {
+    border: 1px solid lightsteelblue;
+    margin: 5px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    min-width: 20em;
+    
+}
+
+.place {
+    border: 1px solid snow;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.mandela {
+    display: flex;
+    align-items: center;
+}
+
+.oriental {
+    display: flex;
+    align-items: center;
+}
+
+.maboneng {
+    display: flex;
+    align-items: center;
+}
+
+
+@media (min-width: 960px) {
+
+    h1 {
+        font-style: italic;
+        padding: 0em 10px;
+    }
+
+    .intro {
+        display: flex;
+        align-items: left;
+        margin-left: 20%;
+        margin-top: 4%;
+        padding: 4%;
+
+    }
+
+    .city {
+        display: flexbox;
+        align-items: center;
+    }
+
+    .modules {
+        display: flexbox;
+        margin: 3px;
+        padding: 5em;
+    }
+
+    .places {
+        display: flow-root;
+        margin: 3px;
+        padding: 5em;
+    }
+}
